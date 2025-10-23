@@ -1,3 +1,41 @@
 body {
     background-color: white;
+    margin: 0;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(198, 68, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 30px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;      
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;  
+}
+.navbar-logo{
+    width: 150px;
+    height: 150px;
+}
+.navbar ul li {
+    float: left;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.navbar a:any-link {
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: rgb(193, 43, 43);
+    transition-duration: 0.35s;
+}
+.header{
+    background-image: url(/images/seamless-background-hand-drawn-food-260nw-765121927\ \(1\).webp);
 }
