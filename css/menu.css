@@ -4,6 +4,14 @@ body {
     font-family: fantasy;
 
 }
+a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover {
+    color: rgb(52, 124, 148);
+    text-decoration: underline; ;
+}
 .heading {
     font-size: 30px;
 }
