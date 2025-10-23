@@ -1,0 +1,28 @@
+.order-bgimg {
+    height: 500px;
+    background-image: url("/images/download (2).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+}
+
+.order-bgimg::before{
+    position: absolute;
+    inset: 0; 
+}
+
+.order-bgimg h1{
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+.order-bgimg{
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+}
