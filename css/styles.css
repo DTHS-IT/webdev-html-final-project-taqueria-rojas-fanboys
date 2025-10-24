@@ -43,3 +43,11 @@ body {
 main{
     font-family: cursive;
 }
+.welcomepictures {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 50px;
+}
