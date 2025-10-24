@@ -24,6 +24,13 @@ a:hover {
     font-family: 'Arial Black', Gadget, sans-serif
 }
 .money {
+    font-size: 15px;
     color: green;
     font-weight: bold;
+    font-style: italic;
+}
+.desc {
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
 }
