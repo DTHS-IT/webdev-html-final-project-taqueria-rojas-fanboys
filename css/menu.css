@@ -11,6 +11,10 @@ a {
     text-decoration: none;
     color: grey;
 }
+li {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
 a:hover {
     color: rgb(0, 94, 125);
     text-decoration: underline; ;
@@ -18,4 +22,8 @@ a:hover {
 .heading {
     font-size: 25px;
     font-family: 'Arial Black', Gadget, sans-serif
+}
+.money {
+    color: green;
+    font-weight: bold;
 }
