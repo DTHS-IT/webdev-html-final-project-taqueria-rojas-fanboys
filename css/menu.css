@@ -27,3 +27,8 @@ a:hover {
     color: green;
     font-weight: bold;
 }
+.desc {
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+}
