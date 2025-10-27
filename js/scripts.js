@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  
-  const form = document.getElementById("myForm");
+
+  const form = document.getElementById("application-form");
 
   const successDiv = document.getElementById("success");
 
