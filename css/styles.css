@@ -43,6 +43,17 @@ body {
 main{
     font-family: cursive;
 }
+<<<<<<< HEAD
+=======
+.welcomepictures {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 50px;
+}
+>>>>>>> d5a164d66a66fbf8a37622b6c3fe9a1956250f90
 footer {
     color: white;
     text-align: center;

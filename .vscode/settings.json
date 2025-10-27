@@ -1,5 +1,13 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:system",
     "python-envs.pythonProjects": [],
+<<<<<<< HEAD
     "liveServer.settings.port": 5506
+=======
+<<<<<<< HEAD
+    "liveServer.settings.port": 5505
+=======
+    "liveServer.settings.port": 5506
+>>>>>>> ffe6e211335b5c4a90dce525917f025940d4556e
+>>>>>>> d5a164d66a66fbf8a37622b6c3fe9a1956250f90
 }
