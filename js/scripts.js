@@ -25,22 +25,22 @@ document.addEventListener("DOMContentLoaded", function () {
     const firstName = document.getElementById("firstName").value;
     const lastName = document.getElementById("lastName").value;
     const address = document.getElementById("address").value;
-    const city = document.getElementById("city").value;
-    const stateAbbreviation  = document.getElementById("stateAbbreviation").value
-    const zipCode = document.getElementById("zipCode").value
+    const phone = document.getElementById("phone").value;
+    const email = document.getElementById("email").value;
 
     successDiv.innerHTML = `
         <h2>Form Submitted Successfully!</h2>
         <p><strong>First Name:</strong> ${firstName}</p>
         <p><strong>Last Name:</strong> ${lastName}</p>
         <p><strong>Address:</strong> ${address}</p>
-        <p><strong>City:</strong> ${city}</p>
-        <p><strong>State:</strong> ${stateAbbreviation}</p>
-        <p><strong>Zip Code:</strong> ${zipCode}</p>
+        <p><strong>Phone:</strong> ${phone}</p>
+        <p><strong>Email:</strong> ${email}</p>
       `;
 
     form.reset();
-  });
+});
+});
+
 // Highlight the active navbar link based on the current page
 function setActiveNav() {
     const header = document.getElementById('header');
