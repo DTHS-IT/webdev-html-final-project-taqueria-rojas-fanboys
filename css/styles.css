@@ -51,6 +51,9 @@ body {
 }
 main{
     font-family: cursive;
+    background-image: url(/images/wood-texture.jpg);
+    padding-bottom:50px;
+    padding-top: 50px;
 }
 .welcomepictures {
     justify-content: center;
