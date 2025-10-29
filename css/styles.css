@@ -24,11 +24,12 @@ body {
     height: 150px;
 }
 #navbar ul li {
-    float: left;
-    margin-right: 20px;
-    text-decoration: none;
+    float: left !important;
+    margin-right: 20px !important;
+    text-decoration: none !important;
     font-size: 30px !important;
-    padding: 4px;
+    padding: 4px !important;
+    margin: 0px !important;
 }
 #navbar a:any-link {
     color: white;
@@ -38,7 +39,6 @@ body {
     color: rgb(193, 43, 43);
     transition-duration: 0.35s;
 }
-/* underline the active page link */
 #navbar a.active {
     text-decoration: underline;
     text-decoration-thickness: 3px;
