@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 });
 
-// Highlight the active navbar link based on the current page
+
 function setActiveNav() {
     const header = document.getElementById('header');
     if (!header) return;
@@ -49,13 +49,11 @@ function setActiveNav() {
     if (!navbar) return;
 
     const links = navbar.querySelectorAll('a[href]');
-    // determine current file name (e.g., "menu.html") or default to index.html
     const path = window.location.pathname;
     let page = path.substring(path.lastIndexOf('/') + 1);
     if (!page) page = 'index.html';
 
     links.forEach(a => {
-        // Normalize href (remove any leading path)
         const href = a.getAttribute('href').split('/').pop();
         if (href === page) {
             a.classList.add('active');
@@ -65,13 +63,12 @@ function setActiveNav() {
     });
 }
 
-// If header is loaded asynchronously (via jQuery .load), use a MutationObserver
-// to run setActiveNav once the #navbar is inserted.
+
 document.addEventListener('DOMContentLoaded', function() {
     const headerContainer = document.getElementById('header');
     if (!headerContainer) return;
 
-    // Try to set right away in case header is already present
+
     setActiveNav();
 
     const mo = new MutationObserver((mutations) => {
