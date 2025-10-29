@@ -38,7 +38,6 @@ body {
     color: rgb(193, 43, 43);
     transition-duration: 0.35s;
 }
-/* underline the active page link */
 #navbar a.active {
     text-decoration: underline;
     text-decoration-thickness: 3px;
@@ -115,6 +114,8 @@ footer .opening-hours, footer .socials {
 form {
   display: flex;
   flex-direction: column;
+  border: 2px solid #c644da;
+    padding: 60px;
 }
 label {
   margin-top: 12px;
@@ -143,9 +144,9 @@ button:hover {
 .success-message {
   margin-top: 24px;
   padding: 16px;
-  background-color: #e6ffed;
-  border: 1px solid #28a745;
-  color: #155724;
+  background-color: #c644da;
+  border: 1px solid #b315db;
+  color: #ffffff;
   border-radius: 4px;
   font-size: 16px;
 }
@@ -153,4 +154,12 @@ button:hover {
     border-radius: 8px;
     width: 300px;
     height: 300px;
+}
+#order-form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #c644da;
+    border-radius: 4px;
+    padding: 60px;
+    background-color: white;
 }

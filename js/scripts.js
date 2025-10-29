@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <p><strong>Address:</strong> ${address}</p>
         <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Call 302-555-1234 for further assistance.</strong></p>
       `;
 
     form.reset();
