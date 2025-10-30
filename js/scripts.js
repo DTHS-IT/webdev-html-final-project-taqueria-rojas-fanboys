@@ -83,3 +83,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
     mo.observe(headerContainer, { childList: true, subtree: true });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const orderForm = document.getElementById("order-form");
+
+  const successDiv = document.getElementById("order-success");
+
+  orderForm.addEventListener("submit", function (event) {
+
+    event.preventDefault();
+
+    successDiv.innerHTML = `
+        <h2>Order has been received</h2>
+        <p>Thank you for your order! <br>
+        Call 302-555-1234 for further assistance.</p>
+        
+      `;
+
+    form.reset();
+});
+});

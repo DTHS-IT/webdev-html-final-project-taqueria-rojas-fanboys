@@ -19,19 +19,32 @@
 <body>
     <div id="header"></div>
     <main>
+        <center>
         <h1>Order Your Favorite Dish</h1>
+        </center>
         <form id="order-form">
             <label for="dish">Select Dish:</label>
             <select id="dish" name="dish">
                 <option value="birria">Birria</option>
                 <option value="montalai">Montalai</option>
                 <option value="comsome">Comsome</option>
+                <option value="al-pastor-taco">Al Pastor Taco</option>
+                <option value="tripa-taco">Tripa Taco</option>
+                <option value="lengua-taco">Lengua Taco</option>
+                <option value="corn-quesadilla">Corn Tortilla Quesadilla</option>
+                <option value="flour-quesadilla">De Arina Quesadilla</option>
+                <option value="quesadillas-dorado">Quesadillas Dorado</option>
+                <option value="burrito">Burrito</option>
             </select>
 
             <label for="quantity">Quantity:</label>
             <input type="number" id="quantity" name="quantity" min="1" max="100" value="1">
 
+            <label for="notes">Notes:</label>
+            <textarea id="notes" name="notes" rows="4"></textarea>
+
             <button type="submit">Place Order</button>
+            <div id="order-success" class="order-success-message"></div>
         </form>
     </main>
     <div id="footer"></div>
